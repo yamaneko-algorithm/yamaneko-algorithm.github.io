@@ -131,6 +131,10 @@ dl > div.appear dd {
   #modify {
     font-size: small;
   }
+  dd {
+    font-size: 14px;
+  }
+    
 }
 
 #board {
