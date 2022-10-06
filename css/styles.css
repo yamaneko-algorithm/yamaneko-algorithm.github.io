@@ -1,3 +1,9 @@
+:root {
+  --player-color: red;
+  --player1-win: 50;
+  --width: 380;
+}
+
 header {
   text-align: center;
 }
@@ -94,6 +100,12 @@ dl > div.appear dd {
   height: 550px;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width:480px) {
+  #container {
+    zoom: calc((var(--width) - 16) / 550);
+  }
 }
 
 #board {
@@ -220,19 +232,6 @@ dl > div.appear dd {
 #hexagon-template {
   display: none;
 } 
-
-#mini {
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: red;
-  white-space: nowrap;
-}
-
-:root {
-  --player-color: red;
-  --player1-win: 50;
-}
 
 /* 駒の表示 */
 .piece {
