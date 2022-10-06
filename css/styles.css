@@ -123,6 +123,10 @@ dl > div.appear dd {
   }
   header img {
     width: 40%;
+    margin-bottom: -5px;
+  }
+    h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   }
   #modify {
     font-size: small;
