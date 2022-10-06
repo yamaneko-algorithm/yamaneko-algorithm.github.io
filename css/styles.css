@@ -7,6 +7,21 @@
 header {
   text-align: center;
 }
+header time {
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+#modify::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  background-image:url(../img/update_icon.png);
+  background-size: contain;
+  vertical-align: -1px;
+  margin-right: 2px;
+}
 header img {
   width: 20%;
 }
