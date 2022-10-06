@@ -543,7 +543,7 @@ function around(state) {
   return [flag,beforeNumber];
 }
 
-
+document.documentElement.style.setProperty('--width', `${window.innerWidth}`);
 
 btn();
 createBoard();
