@@ -122,7 +122,7 @@ dl > div.appear dd {
     zoom: calc((var(--width) - 16) / 550);
   }
   header img {
-    width: 40%;
+    width: 50%;
     margin-bottom: -5px;
   }
     h1 {
