@@ -353,11 +353,7 @@ dl > div.appear dd {
 }
 
 footer {
-  margin-top: 30px;
-}
-
-a img {
-  width: 30px;
-  height: 30px;
+  margin-top: 60px;
+    display: flex;
 }
 
