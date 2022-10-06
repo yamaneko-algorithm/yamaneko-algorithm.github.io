@@ -106,6 +106,12 @@ dl > div.appear dd {
   #container {
     zoom: calc((var(--width) - 16) / 550);
   }
+  header img {
+    width: 40%;
+  }
+  #modify {
+    font-size: small;
+  }
 }
 
 #board {
@@ -355,5 +361,9 @@ dl > div.appear dd {
 footer {
   margin-top: 60px;
     display: flex;
+}
+
+a {
+  vertical-align: -5px;
 }
 
