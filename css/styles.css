@@ -117,25 +117,6 @@ dl > div.appear dd {
   margin-right: auto;
 }
 
-@media screen and (max-width:480px) {
-  #container {
-    zoom: calc((var(--width) - 16) / 550);
-  }
-  header img {
-    width: 50%;
-    margin-bottom: -5px;
-  }
-    h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
-  #modify {
-    font-size: small;
-  }
-  dd {
-    font-size: 14px;
-  }
-    
-}
 
 #board {
   position: absolute;
@@ -388,5 +369,31 @@ footer {
 
 a {
   vertical-align: -5px;
+}
+
+@media screen and (max-width:480px) {
+  #modify {
+    font-size: small;
+  }
+  header img {
+    width: 50%;
+    margin-bottom: -5px;
+  }
+  h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  ul {
+    padding-left: 26px;
+  }
+  dd {
+    font-size: 14px;
+  }
+  #container {
+    zoom: calc((var(--width) - 16) / 550);
+  }
+  .hexagon {
+    zoom: 1.12;
+    transform: translateX(-30.5px) translateY(-28.5px);
+  }
 }
 
