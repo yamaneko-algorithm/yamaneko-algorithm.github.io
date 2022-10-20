@@ -430,7 +430,7 @@ a {
     width: calc((var(--width) * 1px - 16px));
   }
   #sengo {
-    left: 10px;
+    left: 0;
   }
   #container {
     zoom: calc((var(--width) - 16) / 550);
