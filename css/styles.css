@@ -452,7 +452,6 @@ a {
   }
   #container {
     zoom: calc((var(--width)) / 550);
-    margin-left: -8px;
   }
   .hexagon {
     zoom: 1.12;
