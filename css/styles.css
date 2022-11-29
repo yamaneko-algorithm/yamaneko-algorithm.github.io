@@ -1,11 +1,18 @@
 :root {
   --player-color: red;
   --player1-win: 50;
-  --width: 380;
+  --width: 300;
+}
+
+body {
+  margin-left: 0;
+  margin-right: 0;
 }
 
 header {
   text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
 }
 header time {
   position: absolute;
@@ -36,6 +43,15 @@ header h1 {
 }
 .mark_blue {
   background: linear-gradient(transparent 80%, blue 0%);
+}
+
+#abstract {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+dl {
+  margin-left: 8px;
+  margin-right: 8px;
 }
 
 /* ルール */
@@ -401,6 +417,8 @@ dl > div.appear dd {
 
 footer {
   margin-top: 60px;
+  margin-left: 8px;
+  margin-right: 8px;
   display: flex;
 }
 
